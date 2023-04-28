@@ -152,7 +152,7 @@ namespace EFMysql.Controllers
         //添加一个数据，传入一个不带ID的
         [HttpPost("test/testshow")]
         public IActionResult show(test parameter)
-        {
+        {//我也新提交溜了一个
             return Ok();
         }
     }
