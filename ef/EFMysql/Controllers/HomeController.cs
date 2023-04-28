@@ -9,7 +9,7 @@ namespace EFMysql.Controllers
         [HttpGet("Home/Index")]
         public IActionResult Index()
         {
-            return Ok();
+            return Ok("这是一个测试用的文档显示");
         }
     }
 }
