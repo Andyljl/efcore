@@ -6,6 +6,10 @@ namespace EFMysql.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
+        /// <summary>
+        /// 测试
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("Home/Index")]
         public IActionResult Index()
         {
