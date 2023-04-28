@@ -153,6 +153,7 @@ namespace EFMysql.Controllers
         [HttpPost("test/testshow")]
         public IActionResult show(test parameter)
         {
+           //展示一个接口
             return Ok();
         }
     }
