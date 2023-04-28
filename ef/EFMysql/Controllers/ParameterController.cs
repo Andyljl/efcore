@@ -153,7 +153,7 @@ namespace EFMysql.Controllers
         [HttpPost("test/testshow")]
         public IActionResult show(test parameter)
         { 
-            //全部都删除，同意代码
+            //全部都删除，统一代码
             return Ok();
         }
     }
