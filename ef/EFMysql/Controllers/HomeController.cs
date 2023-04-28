@@ -2,11 +2,14 @@
 
 namespace EFMysql.Controllers
 {
-    public class HomeController : Controller
+    [Route("api/")]
+    [ApiController]
+    public class HomeController : ControllerBase
     {
+        [HttpGet("Home/Index")]
         public IActionResult Index()
         {
-            return View();
+            return Ok();
         }
     }
 }
